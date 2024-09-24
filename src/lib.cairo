@@ -130,7 +130,7 @@ mod OrderTracking {
         }
         fn refund_user(ref self: ContractState, order_id: felt252) {
             let mut order = self.orders.read(order_id);
-            // assert(order.status == Status::Cancelled, 'order needs to be cancelled');
+            // assert(order.status == Status::Cancelled, 'order should be cancelled');
             self._transfer(order.placed_by, order.price);
         }
     }

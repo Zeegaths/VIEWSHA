@@ -1,0 +1,29 @@
+{
+  "name": "next-landing-vpn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@starknet-react/core": "^3.0.3",
+    "autoprefixer": "^10.4.12",
+    "framer-motion": "6.0.0",
+    "next": "^15.0.1",
+    "postcss": "^8.4.17",
+    "postcss-import": "^13.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scroll": "^1.8.1",
+    "slick-carousel": "^1.8.1",
+    "starknet": "^6.11.0",
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.1.2"
+  }
+}
